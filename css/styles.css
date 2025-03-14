@@ -12,6 +12,7 @@ body {
   color: #434455;
   background-color: #fff;
 }
+
 /* -------- HEADER ------- */
 
 .logo {
@@ -24,8 +25,7 @@ body {
   color: #4d5ae5;
 }
 
-.header-logo,
-.logo-part {
+.header-logo .logo-part {
   color: #2e2f42;
 }
 
@@ -61,6 +61,67 @@ body {
 /* -------- HEADER ------- */
 
 /* -------- HERO ------- */
+.page-main {
+  background: #2e2f42;
+}
+
+.page-main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.page-main-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.page-aside-title,
+.page-team-name,
+.Portfolio-item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.page-aside-text,
+.page-team-profession,
+.Portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.page-team-title,
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-img {
+}
 /* -------- HERO ------- */
 
 /* --------FOOTER --------*/
@@ -69,8 +130,7 @@ body {
   background-color: #2e2f42;
 }
 
-.footer-logo,
-.logo-part {
+.footer-logo-part {
   color: #f4f4fd;
 }
 
