@@ -38,7 +38,10 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.page-main-btn:hover {
   color: #404bbf;
 }
 
@@ -51,11 +54,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
 }
 
 /* -------- HEADER ------- */
@@ -75,10 +73,6 @@ body {
 }
 
 .page-main-btn {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -97,12 +91,28 @@ body {
   color: #2e2f42;
 }
 
+.page-team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .page-aside-text,
-.page-team-profession,
 .Portfolio-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.page-team-profession {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #434455;
 }
 
@@ -133,5 +143,14 @@ body {
 .footer-logo-part {
   color: #f4f4fd;
 }
+.page-footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
 
+.team-item-conteiner {
+  background-color: #fff;
+}
 /* --------FOOTER --------*/
