@@ -92,7 +92,7 @@ body {
 /* ------ page-aside Portfolio -----*/
 
 .page-aside-title,
-.Portfolio-item-subtitle {
+.portfolio-item-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -101,7 +101,7 @@ body {
 }
 
 .page-aside-text,
-.Portfolio-item-text {
+.portfolio-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -127,7 +127,11 @@ body {
   background-color: #f4f4fd;
 }
 
-.page-team-profession {
+.team-item-conteiner {
+  background-color: #ffffff;
+}
+
+.page-team-item-prof {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -136,7 +140,7 @@ body {
   color: #434455;
 }
 
-.page-team-name {
+.page-team-item-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
