@@ -57,7 +57,8 @@ body {
 
 /* -------- HEADER ------- */
 
-/* -------- HERO ------- */
+/* -------- PAGE-MAIN ------- */
+
 .page-main {
   background-color: #2e2f42;
 }
@@ -86,21 +87,16 @@ body {
   background-color: #404bbf;
 }
 
+/* ------ PAGE-MAIN ------*/
+
+/* ------ page-aside Portfolio -----*/
+
 .page-aside-title,
 .Portfolio-item-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.page-team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -113,15 +109,6 @@ body {
   color: #434455;
 }
 
-.page-team-profession {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.page-team-title,
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -132,11 +119,43 @@ body {
   text-transform: capitalize;
 }
 
+/* ------ page-aside Portfolio-----*/
+
+/* ------ team -----*/
+
 .team {
   background-color: #f4f4fd;
 }
 
-/* -------- HERO ------- */
+.page-team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.page-team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.page-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+/* ------ team -----*/
 
 /* --------FOOTER --------*/
 
