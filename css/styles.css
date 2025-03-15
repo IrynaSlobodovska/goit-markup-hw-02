@@ -40,8 +40,7 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
-.page-main-btn:hover {
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -60,7 +59,7 @@ body {
 
 /* -------- HERO ------- */
 .page-main {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .page-main-title {
@@ -73,7 +72,7 @@ body {
 }
 
 .page-main-btn {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -82,8 +81,12 @@ body {
   cursor: pointer;
 }
 
+.page-main-btn:hover,
+.page-main-btn:focus {
+  background-color: #404bbf;
+}
+
 .page-aside-title,
-.page-team-name,
 .Portfolio-item-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -103,6 +106,7 @@ body {
 
 .page-aside-text,
 .Portfolio-item-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -110,10 +114,10 @@ body {
 }
 
 .page-team-profession {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
@@ -125,14 +129,13 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team {
   background-color: #f4f4fd;
 }
 
-.team-img {
-}
 /* -------- HERO ------- */
 
 /* --------FOOTER --------*/
@@ -144,6 +147,7 @@ body {
 .footer-logo-part {
   color: #f4f4fd;
 }
+
 .page-footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -152,6 +156,6 @@ body {
 }
 
 .team-item-conteiner {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 /* --------FOOTER --------*/
